@@ -1,0 +1,49 @@
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body, html {
+  height: 100%;
+}
+
+.page-login {
+  background-color: #f2f2f2;
+}
+.page-login .header-app {
+  display: none;
+}
+.page-login .content {
+  height: 100%;
+}
+.page-login .content .cont-card {
+  height: 100%;
+}
+.page-login .content .cont-card .card {
+  width: 400px;
+  padding: 2vw;
+}
+
+.page-error .header-app, .page-main .header-app {
+  display: none;
+}
+
+.bolt-active {
+  color: #ffe100;
+}
+.bolt-inactive {
+  color: #959595;
+}
+
+.homepage .header-app .dropdown-menu {
+  left: -30%;
+}
+
+.box-search {
+  background-color: #fff;
+  top: 0;
+  left: 0;
+  z-index: 3;
+}
+
+/*# sourceMappingURL=style.css.map */

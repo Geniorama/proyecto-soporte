@@ -1,0 +1,54 @@
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body, html{
+    height: 100%;
+}
+
+.page-login{
+    .header-app{
+        display: none;
+    }
+    background-color: #f2f2f2;
+    .content{
+        height: 100%;
+
+        .cont-card{
+            height: 100%;
+
+            .card{
+                width: 400px;
+                padding: 2vw;
+            }
+        }
+    }
+}
+
+.page-error, .page-main{
+    .header-app{
+        display: none;
+    }
+}
+
+.bolt{
+    &-active{
+        color: #ffe100;
+    }
+    
+    &-inactive{
+        color: #959595;
+    }
+}
+
+.homepage .header-app .dropdown-menu{
+    left: -30%;
+}
+
+.box-search{
+    background-color: #fff;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
